@@ -21,5 +21,18 @@ int main()
     const double PI = 3.14159;
 
     /* you can manupilate the variables by using normal mathematic operationss*/
+    //calculating the area of a rectangle
+    int length;
+    int width;
+    int area;
+    //using cin to get the variables for length and width
+    cout << "type the length";
+    cin >> length;
+    cout << "type the width";
+    cin >> width;
     
+    area = length * width;
+
+    cout <<"area of the rectangle is :" << area << "\n";
+
 return 0;}
