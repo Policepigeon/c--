@@ -48,4 +48,10 @@ int main()
     a variable name*/
     cout << boolean <<endl;
 
+
+    /* you can also use e as a scientific number to do x10^power*/
+    float f1 = 35e3;
+    double d1 = 12E4;
+    cout << f1;
+    cout << d1; 
 return 0;}
