@@ -23,7 +23,7 @@ int main(){
     cout << "Enter password";
     cin >> u1.password;
     cout << "Enter a username";
-    cin >> u1.name
+    cin >> u1.name;
 
 
 return 0;}
