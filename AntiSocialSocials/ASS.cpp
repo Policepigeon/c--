@@ -2,6 +2,7 @@
 using namespace std;
 
 #include <iostream>
+#include <cstdlib>
 
     class user{
         public:
@@ -13,14 +14,16 @@ using namespace std;
     };
 
 int main(){
+    int nextuid = 0
     user u1;
-    cout << "Enter the name: ";
-    cin >> u1.name;
-    random.randint(1,100) >> u1.name;
+    nextuid >> u1.uid;
+    nextuid + 1 >> nextuid
     cout << "Enter the email: ";
     cin >> u1.email;
     cout << "Enter password";
     cin >> u1.password;
+    cout << "Enter a username";
+    cin >> u1.name
 
 
 return 0;}
