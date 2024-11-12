@@ -10,7 +10,7 @@ string isPangram(string s) {
 	unordered_map<char, int> freq;
 	for (char c : s) {
 		if (isalpha(c)) {
-			freq++;
+			freq[c]++;
 		}
 	}
 
@@ -19,9 +19,9 @@ string isPangram(string s) {
 }
 
 int main() {
-	string str 
-  cout << "Please input the pangram \n"
-  cin >> str
+	string str ;
+  cout << "Please input the pangram \n";
+  cin >> str;
 	cout << isPangram(str) << endl;
 	return 0;
 }
