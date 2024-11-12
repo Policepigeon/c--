@@ -1,13 +1,27 @@
-/* this is a piece of code that finds pangrams in a user input*/
-
-#include <iostream>
-#include <iomanip>
-
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-string UserWord;
-cout << "type the word you want to check for pangrams \n";
+string isPangram(string s) {
 
-  return 0;
+	// Convert each letter to lowercase
+	transform(s.begin(), s.end(), s.begin(), ::tolower);
+
+	// Create a frequency map of characters
+	unordered_map<char, int> freq;
+	for (char c : s) {
+		if (isalpha(c)) {
+			freq++;
+		}
+	}
+
+	// Check if the frequency map contains all 26 letters
+	return freq.size() == 26 ? "Yes" : "No";
+}
+
+int main() {
+	string str 
+  cout << "Please input the pangram \n"
+  cin >> str
+	cout << isPangram(str) << endl;
+	return 0;
 }
