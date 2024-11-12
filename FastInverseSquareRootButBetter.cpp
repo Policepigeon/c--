@@ -1,3 +1,4 @@
+#include <iostream>
 float Q_rsqrt( float number )
 {
 	long i;
@@ -11,6 +12,10 @@ float Q_rsqrt( float number )
 	y  = * ( float * ) &i;
 	y  = y * ( threehalfs - ( x2 * y * y ) );   // 1st iteration
 //	y  = y * ( threehalfs - ( x2 * y * y ) );   // 2nd iteration, this can be removed
-
+	std::cout << y;
 	return y;
+}
+int main(){
+	Q_rsqrt(500.125);
+	return 0;
 }
