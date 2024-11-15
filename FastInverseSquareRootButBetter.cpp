@@ -1,4 +1,5 @@
 #include <iostream>
+#include <type_traits>
 float Q_rsqrt( float number )
 {
 	long i;
