@@ -24,5 +24,6 @@ int main() {
     }
 
     std::cout << "Memory successfully deallocated." << std::endl;
+    /* i should modify this so that it can be used to ensure users in my nea do not exceed the memory requirements of the system*/
     return 0;
 }
